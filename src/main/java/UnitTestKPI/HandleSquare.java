@@ -8,18 +8,6 @@ import java.util.Scanner;
  */
 public class HandleSquare {
 
-    public static void calcSquare(int square){
-        if(square > 0){
-            double side = Calculation.getSide(square);
-            double diagonal = Calculation.getDiagonal(side);
-            int sideBigSquare = (int) Math.round(diagonal);
-            System.out.println("Side of the SMALL square =" + side);
-            System.out.println("Side of the BIG square =" + sideBigSquare);
-        } else {
-            System.out.println("Square is not defined");
-        }
-    }
-
     public static int getAndCheckSquare(){
         System.out.println("Write square int value");
         int square = 0;
@@ -36,4 +24,17 @@ public class HandleSquare {
         }
         return square;
     }
+    public static void calcSquare(int square){
+        if(square > 0){
+            double side = Calculation.getSide(square);
+            double diagonal = Calculation.getDiagonal(side);
+            int sideBigSquare = (int) Math.round(diagonal);
+            System.out.println("Side of the SMALL square =" + side);
+            System.out.println("Side of the BIG square =" + sideBigSquare);
+        } else {
+            System.out.println("Square is not defined");
+        }
+    }
+
+
 }
