@@ -10,7 +10,6 @@ import org.junit.runners.Suite;
 @RunWith(Suite.class)
 @Suite.SuiteClasses({
         CalculationTest.class //test case 1
-
 })
 
 public class SuiteTest {
