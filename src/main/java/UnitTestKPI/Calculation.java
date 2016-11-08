@@ -10,6 +10,6 @@ public class Calculation {
     }
 
     public static double getDiagonal(double side) {
-        return Math.sqrt(Math.pow(side,2) * 2);
+        return Math.sqrt(Math.pow(side, 2) * 2);
     }
 }
