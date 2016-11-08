@@ -1,7 +1,7 @@
 package UnitTestKPI;
 
 /**
- * Hello world!
+ * Find side of Square and diagonal
  *
  */
 public class MainApp

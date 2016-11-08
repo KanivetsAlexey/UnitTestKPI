@@ -24,6 +24,7 @@ public class HandleSquare {
         }
         return square;
     }
+
     public static void calcSquare(int square){
         if(square > 0){
             double side = Calculation.getSide(square);
